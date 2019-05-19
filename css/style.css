@@ -1,0 +1,359 @@
+.header-section{
+    background-image: url(../images/plate.png),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align: -webkit-center;
+    background-position-x: center;
+    background-blend-mode: overlay;
+    font-size: 15px;
+}
+.container3{
+    width: 88%;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    width:90%
+}
+.header-paragraph{
+    text-align: center;
+    margin-top: 9.6em;
+    color: #fff;
+    margin-bottom: 8.2em;
+}
+.header-items{
+    display: flex;
+    text-align: -webkit-center;
+}
+.header-items h4{
+    margin-top: 1.8em;
+    color: #fff;
+    font-family: Helvetica-cn;
+    font-size: 2em;
+}
+.header-items p{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.8em;
+    color: #fff;
+    font-family: Helvetica-th;
+}
+.header-items img{
+    width: 8.93em;
+    height: 8.93em;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.white-button{
+    margin-bottom: 9em;
+    margin-top: 4.7em;
+    height: 2.8em;
+    width: 10.5em;
+    text-align: -webkit-center;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 2em;
+    font-family: Helvetica-bold;
+    font-size: 1.2em;
+}
+.white-button:hover{
+    cursor: pointer;
+}
+.green{
+    color: #86a74d;
+}
+.white-button2{
+    margin-top: 5.7em !important;
+}
+.white-button3{
+    margin-bottom: 6.8em;
+    margin-top: 3.8em;
+    height: 2.8em;
+    width: 10.5em;
+    text-align: -webkit-center;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 2em;
+    font-family: Helvetica-bold;
+    font-size: 1.2em;
+}
+.white-button2:hover , .white-button3:hover{
+    background-color: #86a74d;
+    color: #fff;
+    cursor: pointer;
+}
+.newsletter{
+    background-image: url(../images/ourValuesHome.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+input{
+    width: 25em;
+    padding: 1.2em 1.2em;
+    background-color: rgba(255, 255, 255, 0.329);
+    border: 1px solid #fff;
+    border-radius: 2em;
+    color: #fff;
+}
+.color-button{
+    height: 40px;
+    width: 150px;
+    text-align: -webkit-center;
+    background-color: #f8b882;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+}
+.green-btn{
+background-color: #86a74d;
+}
+.newsletter{
+    font-size: 15px;
+}
+.newsletter h3{
+    padding-top: 4em;
+    font-size: 2em;
+    color: #fff;
+    font-family: Helvetica-Md;
+}
+.newsletter button{
+    margin-bottom: 7.4em;
+    margin-top: 4.46em;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 2;
+    right: 3em;
+    top: 0.1em;
+}
+.newsletter p{
+    color: #fff;
+    margin-top: 1.6em;
+    font-size: 1em;
+}
+.center{
+    padding-left: 3.5em;
+}
+::placeholder{
+    color: #fff;
+}
+.ihoreca-section{
+    font-size: 16px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 3em;
+    margin-top: 4.25em;
+    margin-bottom: 5.5em;
+}
+.ihoreca-text{
+    margin-top: 3.3em;
+}
+.ihoreca-text h3{
+    font-family: Helvetica-bold;
+    font-size: 2em;
+    margin-bottom: 0.8em;
+}
+.ihoreca-text p{
+    font-family: Helvetica-cn;
+}
+.ihoreca-section .new {
+    display: grid;
+    grid-template-columns: 46% 40%;
+    grid-gap: 7em;
+}
+.ihoreca-section .exist{
+    display: grid;
+    grid-template-columns: 35% 51%;
+    grid-gap: 7em;
+}
+.new img , .exist img{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: 3px solid #ff9933;
+}
+.exist img{
+    border:3px solid #86a74d;
+}
+.exist img:hover{
+    box-shadow: -6px 0px 18px #aaaaaa5c;
+    transform: scale(1.05);
+}
+.new img:hover{
+    box-shadow: 6px 0px 18px #aaaaaa5c;
+    transform: scale(1.05);
+}
+.ihoreca-section button{
+    margin-top: 2.5em;
+    font-size: 1.125em;
+}
+.space{
+    margin-bottom: 2.5em;
+}
+.ourbrand{
+    background-color: #edeff1;
+    text-align: center;
+    font-size: 30px;
+}
+.brand-img{
+    padding-bottom: 2.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-img img{
+    margin-right: 1em;
+}
+.ourbrand h3{
+    padding-top: 1.4em;
+    padding-bottom: 2em;
+    font-family: Helvetica-Md;
+    font-size: 1em;  
+}
+
+@media only screen and (max-width: 767px) {
+     .new img, .exist img {
+        width: 8em;
+        height: 8em;
+        margin-bottom: .8em;
+     }
+     .white-button3 {
+        margin-bottom: 4.8em;
+        margin-top: 2.8em;
+        height: 2.8em;
+        width: 9.5em;
+     }
+     .ihoreca-section .exist{
+        display: block;
+        text-align: center;
+     }
+     .logo img{
+        width: 9em;
+     }
+     .logo-img img{
+        width: 19em;
+     }
+     .ihoreca-text {
+        margin-top: 0em;
+        order: 2;
+    }
+    .header-paragraph {
+        margin-top: 2.6em;
+        margin-bottom: 2.6em;
+    }
+    .header-items p {
+        margin-bottom: 2em;
+    }
+    .white-button {
+        margin-bottom: 5em;
+        margin-top: 0.7em;
+    }
+    .header-items {
+        display: unset;
+        width: 91%;
+    }
+    .header-items h4 {
+        margin-top: 0.8em;
+    }
+    .ihoreca-text h3 {
+        font-size: 1.4em;
+    }
+    .ihoreca-section {
+        width: 89%;
+        display: grid;
+        grid-template-rows: 1fr;
+        margin-top: 2.25em;
+        margin-bottom: 2.5em;
+    }
+    .ihoreca-section .new {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap: .4em;
+    }
+    .exit-img{
+        text-align: -webkit-left;
+    }
+    .ourbrand h3 {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .brand-img{
+        flex-wrap: wrap; 
+    }
+    .brand-img img{
+        margin-bottom: 1em;
+        width: 2.5em;
+        margin-right: .5em;
+    }
+    .new-img{
+        order: 1;
+        text-align: center;
+    }
+    .hide {
+        display: none;
+    }
+    .center {
+        padding-left: 0em; 
+    }
+    .newsletter button {
+        margin-bottom: 2em;
+        margin-top: 1.4em;
+        font-size: 1.2em;
+        position: unset;
+        z-index: 2;
+        right: 0em;
+        top: 0em;
+    }
+    .newsletter h3 {
+        padding-top: 2em;
+    }
+    .newsletter p {
+    margin-bottom: 1em;
+    }
+    .space {
+        margin-bottom: 0.5em;
+    }
+    
+ }
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .new img, .exist img {
+        width: 18em;
+        height: 18em;
+    }
+    .hide{
+        width: 1em !important;
+    }
+    .ihoreca-section .exist {
+        display: grid;
+        grid-template-columns: 35% 48%;
+        grid-column-gap: 8em;
+    }
+    .ihoreca-section .new {
+        display: grid;
+        grid-template-columns: 47% 40%;
+        grid-column-gap: 5em;
+    }
+    .newsletter button {
+        margin-bottom: 5.4em;
+        margin-top: 4.46em;
+    }
+    .newsletter h3 {
+        padding-top: 3em;
+    }
+    .white-button2 {
+        margin-top: 5.9em !important;
+    }
+    .white-button4{
+        margin-top: 2.8em !important;
+    }
+    .brand-img img{
+        width: 3em;
+    }
+}

@@ -1,0 +1,117 @@
+/* header section */
+.nav li{
+    font-size: 1em;
+}
+.header-section{
+    background-image: url(../images/aboutus-back.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align: -webkit-center;
+    background-position-x: center;
+    background-blend-mode: overlay;
+    font-size: 15px;
+}
+.header-paragraph{
+    font-size: 40px;
+    padding-top:6.3em; 
+    padding-bottom:7.9em;
+    color: #fff;
+    font-family: Helvetica-th;
+}
+.header-paragraph h3{
+    font-size: 2em;
+}
+.header-paragraph p{
+    font-size: 0.8em;
+    width: 50%;
+}
+/* about us section */
+.aboutus p{
+    padding-bottom:6em;
+}
+.orange-bg{
+    background-color: #da7c4b;
+    font-size: 14.32px;
+}
+.orange-bg h6{
+    font-size: 1em;
+    padding: 1.6em 0em;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: Helvetica-th;
+}
+/* what we do section */
+.what-do{
+    background-image: url(../images/aboutus-whatwedo.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align: -webkit-center;
+    background-blend-mode: overlay;
+    font-size: 97px;
+}
+.what-do h3{
+    font-size: 1em;
+    padding: 1.7em 0em 1.4em 0em;
+    color: #fff;
+    font-family: HelveticaNeueLTStd Lt;
+}
+/* our service section */
+.service{
+    font-size: 30px;
+    text-align: center;
+}
+.service h3{
+    font-size: 1em;
+    font-family: Helvetica-Md;
+    padding: 3.2em 0em 3.06em 0em;
+}
+/* service items section */
+.service-items{
+    display: grid;
+    grid-template-columns: 49% 51%;
+    font-size: 15px;
+    color: #fff;
+}
+.service1-img {
+    background-image: url(../images/aboutus-horecastar.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.service2-img{
+    background-image: url(../images/aboutus-tradeyard.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.service3-img{
+    background-image: url(../images/aboutus-ihoreca.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.service-text{
+    padding: 3.3em 3.3em;
+}
+.service-items h3 {
+    font-family: Raleway-Regular;
+    font-size: 1.6em;
+}
+.service-items p{
+    font-family: Raleway-Regular;
+    font-size: 1em;
+    padding-top: 1.4em;
+}
+.service-img img{
+    font-size: 0px;
+    width: 100%;
+    height: 100%;
+}
+.gray-bg{
+    background-color: #a7a7a7;
+}
+.green-bg{
+    background-color: #82a759;
+}
+.orange{
+    color: #d67843;
+}

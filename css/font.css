@@ -1,0 +1,28 @@
+@font-face{
+    font-family: Helvetica-Md;
+    src: url("../fonts/HelveticaNeueLTStd-Md.otf")
+}
+@font-face{
+    font-family: Helvetica-th;
+    src: url("../fonts/HelveticaNeueLTStd-ThCn.otf")
+}
+@font-face{
+    font-family: Helvetica-cn;
+    src: url("../fonts/HelveticaNeueLTStd-Cn.otf")
+}
+@font-face{
+    font-family: Helvetica-bold;
+    src: url("../fonts/HelveticaNeueLTStd-BdCn.otf")
+}
+@font-face{
+    font-family: HelveticaNeueLTStd Lt;
+    src: url("../fonts/HelveticaNeueLTStd Lt.otf")
+}
+@font-face{
+    font-family: Raleway-Regular;
+    src: url("../fonts/Raleway-Regular.ttf")
+}
+@font-face{
+    font-family: Raleway-SemiBold;
+    src: url("../fonts/Raleway-SemiBold.ttf")
+}

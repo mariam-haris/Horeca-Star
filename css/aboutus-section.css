@@ -1,0 +1,90 @@
+/* about us section */
+.aboutus{
+    width:88%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.bg-color{
+    background-color: #edeff1;
+}
+.overlay{
+    background-image: url("../images/ourMissionHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.6em;
+    position: relative;
+}
+.overlay2{
+    background-image: url("../images/ourVisionHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.6em;
+    position: relative;
+}
+.overlay3{
+    background-image: url("../images/ourValuesHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.9em;
+    margin-bottom: 2.6em;
+    position: relative;
+}
+.img-overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,.2), 0px 6px 20px 0px rgba(0,0,0,.19);
+}
+.overlay:hover .img-overlay ,.overlay2:hover .img-overlay ,.overlay3:hover .img-overlay{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,.2), 0px 6px 20px 0px rgba(0,0,0,.19);
+}
+.aboutus-items{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: auto auto auto;
+    text-align: -webkit-center;
+}
+.aboutus-items p{
+    width: 92%;
+    text-align: -webkit-left;
+    font-family: Helvetica-th;
+    font-size: 1em;
+}
+.aboutus-items .main-img{
+    width: 90%;
+}
+.aboutus h3{
+    text-align: center;
+    padding: 3.3em 0em 3.3em 0em;
+    font-family: Helvetica-Md;
+    font-size: 2em;
+}
+.aboutus .aboutus-items h4{
+    text-align: center;
+    margin-bottom: 1.2em;
+    font-size: 1.6em;
+    font-family: Helvetica-Md;
+}
+@media only screen and (max-width: 768px) {
+    .aboutus-items {
+       display: block ;
+    }
+    .aboutus h3 {
+       text-align: center ;
+       padding: 2.3em 0em 2.3em 0em ;
+    }
+}
